@@ -1,0 +1,57 @@
+Mono path[0] = 'C:/Users/brad/Desktop/pong/game_Data/Managed'
+Mono path[1] = 'C:/Users/brad/Desktop/pong/game_Data/Mono'
+Mono config path = 'C:/Users/brad/Desktop/pong/game_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/brad/Desktop/pong/game_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55060
+Multi-casting "[IP] 192.168.1.21 [Port] 55060 [Flags] 2 [Guid] 4219240790 [EditorId] 846424908 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-SUHL7G6) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55060]
+PlayerConnection already initialized - listening to [0.0.0.0:55060]
+Player data archive not found at `C:/Users/brad/Desktop/pong/game_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 (ID=0x11c0)
+    Vendor:   NVIDIA
+    VRAM:     1954 MB
+    Driver:   22.21.13.8165
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\brad\Desktop\pong\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\brad\Desktop\pong\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\brad\Desktop\pong\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\brad\Desktop\pong\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\brad\Desktop\pong\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\brad\Desktop\pong\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\brad\Desktop\pong\game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\brad\Desktop\pong\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\brad\Desktop\pong\game_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\brad\Desktop\pong\game_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.128 seconds
+Platform assembly: C:\Users\brad\Desktop\pong\game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\brad\Desktop\pong\game_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.181644 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.128223 ms
+System memory in use before: 44.6 MB.
+System memory in use after: 44.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 316.
+Total: 0.212666 ms (FindLiveObjects: 0.018088 ms CreateObjectMapping: 0.015644 ms MarkObjects: 0.148622 ms  DeleteObjects: 0.024444 ms)
+
+Player 1 wins!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Ball:OnCollisionEnter2D(Collision2D) (at C:\Users\brad\Desktop\pong\Assets\Scripts\Ball.cs:45)
+ 
+(Filename: C:/Users/brad/Desktop/pong/Assets/Scripts/Ball.cs Line: 45)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 241c -> priority: 1 
+  Thread -> id: 18c4 -> priority: 1 
+  Thread -> id: 1fe0 -> priority: 1 
+  Thread -> id: 2c04 -> priority: 1 
